@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="stylesheet" href="perfil.js">
+</head>
+<body>
+    <header>
+        <h1>Perfil do Usuário</h1>
+        <a href="inicio2.html" id="homeButton" title="Ir para o Menu">
+            <img src="botao-home.png" alt="Home">
+        </a>
+    </header>
+    <main>
+        <section id="profile-info">
+            
+                        <!-- Imagem de Perfil -->
+                        <div class="profile-pic">
+                            <img id="profileImage" src="default-profile.png" alt="Foto de Perfil">
+                            <button id="editProfileImageButton">Alterar Foto de Perfil</button>
+                        </div>
+            <!-- Nome de Usuário -->
+            <h2 id="username">Nome do Usuário</h2>
+            <button id="editUsernameButton">Editar Nome</button>
+
+            <!-- Email -->
+            <p id="email">Email: usuario@exemplo.com</p>
+            <button id="editEmailButton">Editar Email</button>
+
+            <!-- Biografia -->
+            <p id="bio">Biografia: Este é o texto padrão da biografia.</p>
+            <button id="editBioButton">Editar Biografia</button>
+
+              <!-- Botões de Logout e Deletar Conta -->
+              <div class="account-actions">
+                <button id="logoutButton">Log out</button>
+                <button id="deleteAccountButton">delete account</button>
+            </div>
+        </section>
+    </main>
+    <script src="perfil.js"></script>
+    <footer>
+        <p>&copy; 2025 H de História. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

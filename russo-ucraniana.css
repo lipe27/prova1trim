@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.header{
+    background-color: #003366;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #003366;
+    color: #fff;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #003366;
+}
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.banner p {
+    font-size: 18px;
+    color: #fff;
+}
+.content {
+    padding: 20px 30px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content h2 {
+    color: #003366;
+}
+.content img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: #fff;
+}
+.joana-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.joana-content {
+    display: flex;
+    align-items: flex-start; /* Alinha o texto e a imagem no topo */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+.joana-content img {
+    width: 150px; /* Define o tamanho da imagem */
+    height: auto;
+    border-radius: 8px;
+}
+.joana-content p {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Estilo para o ícone de "home" */
+#homeButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0044cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#homeButton img {
+    width: 24px;
+    height: 24px;
+}
+
+#homeButton:hover {
+    background-color: #61dafb;
+    transform: scale(1.1);
+}
+/* Estilo para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    position: relative; /* Necessário para o posicionamento */
+}
+
+/* Estilo para o ícone de "home" */
+#homeButton {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0044cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#homeButton img {
+    width: 24px;
+    height: 24px;
+}
+
+#homeButton:hover {
+    background-color: #61dafb;
+    transform: scale(1.1);
+}

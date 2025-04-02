@@ -1,0 +1,214 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Informações do Perfil */
+#profile-info {
+    text-align: center;
+}
+
+#profile-info h2 {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 0.5rem;
+}
+
+#profile-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.profile-pic {
+    margin: 1rem auto;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #003366;
+    object-fit: cover;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+button:active {
+    background-color: #003366;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    main {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    #profile-info h2 {
+        font-size: 1.5rem;
+    }
+
+    #profile-info p {
+        font-size: 0.9rem;
+    }
+
+    .profile-pic img {
+        width: 120px;
+        height: 120px;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
+#homeButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0044cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#homeButton img {
+    width: 24px;
+    height: 24px;
+}
+
+#homeButton:hover {
+    background-color: #61dafb;
+    transform: scale(1.1);
+}
+/* Estilo para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    position: relative; /* Necessário para o posicionamento */
+}
+
+/* Estilo para o ícone de "home" */
+#homeButton {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0044cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#homeButton img {
+    width: 24px;
+    height: 24px;
+}
+
+#homeButton:hover {
+    background-color: #61dafb;
+    transform: scale(1.1);
+}
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+/* Estilo para ações de conta */
+.account-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.account-actions button {
+    background-color: #d9534f; /* Cor vermelha para indicar ação crítica */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-actions button:hover {
+    background-color: #c9302c;
+}
+
+.account-actions button:active {
+    background-color: #ac2925;
+}
+
+#logoutButton {
+    background-color: #f0ad4e; /* Cor laranja para logout */
+}
+
+#logoutButton:hover {
+    background-color: #ec971f;
+}
+
+#logoutButton:active {
+    background-color: #d58512;
+}
